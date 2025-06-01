@@ -1,0 +1,20 @@
+# Ignore by default
+**/*
+
+# Add root contents
+!.gitignore
+!README.md
+!TODO.md
+!CMakeLists.txt
+!toolbox.sh
+
+# Add allowed directories
+!cmake
+!cmake/**
+!cmake/**/*
+!src
+!src/**
+!src/**/*
+!include
+!include/**
+!include/**/*

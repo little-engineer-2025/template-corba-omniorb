@@ -1,0 +1,4 @@
+// hello.idl
+interface Hello {
+  string sayHello();
+};
